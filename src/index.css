@@ -22,13 +22,26 @@ table{
     margin: auto;
 }
 button{
-    background-color: rgb(179, 242, 84);
+    background-color: rgb(208, 222, 17);
     border-radius: 20px;
     font-size: 30px;
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 80px;
     cursor:default;
     
+}
+#h1{
+    background-color:rgb(26, 4, 192);
+font-size: 40px;
+}
+#h2{
+    background-color: red;
+}
+#h3{
+    background-color: rgb(224, 28, 194);
+}
+.hilight{
+    background-color: rgb(93, 254, 0);
 }
 
 
