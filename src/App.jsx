@@ -1,11 +1,12 @@
 
 import React from 'react'
 import Calc from './Calc'
-//import Footer from './Footer'
+import Footer from './Footer'
 const App = () => {
     return (
     <>
   <Calc/>
+  
     </>
     
   )

@@ -1,9 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
  }
  .container{
     text-align: center;
+    width: 100%;
 
 }
 
@@ -48,10 +50,31 @@ font-size: 40px;
 .hilight{
     background-color: rgb(173, 175, 173);
 }
-.foot{
-    display: flex;
-    justify-content:flex-end;
-    
 
+
+    @media screen and (max-width:510px) {
+    .container{
+        display: block;
+        position:absolute;
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        height: 50%;
+        }
+       
+       
+    }
+   
+   /* @media screen and (max-width:105px) {
+        .container{
+            display: block;
+            position: absolute;
+            margin: auto;
+            text-align: center;
+            width: 20%;
+            height: 20%;
+    
+        }
+    
 
 }
