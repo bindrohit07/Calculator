@@ -11,10 +11,10 @@
 
 .calculator{
     border: 2px solid rgb(85, 234, 11);
-    border-radius: 30px;
+    border-radius: 3rem;
     background-color: aqua;
     display: inline-block;
-    padding: 20px 20px;
+    padding: 2rem 2rem;
     
 
 }
@@ -22,8 +22,8 @@ input{
     background-color:white;
     border: 2px solid black;
     border-radius: 5px;
-    font-size: 30px;
-    height: 70px;
+    font-size: 2rem;
+    height: 10vh;
 }
 table{
     margin: auto;
@@ -31,15 +31,15 @@ table{
 button{
     background-color: bisque;
     border-radius: 20px;
-    font-size: 30px;
-    height: 60px;
-    width: 80px;
+    font-size: 2rem;
+    height: 4rem;
+    width: 5rem;
     cursor:default;
     
 }
 #h1{
     background-color:green;
-font-size: 40px;
+    font-size: 40px;
 }
 #h2{
     background-color: red;
@@ -51,17 +51,35 @@ font-size: 40px;
     background-color: rgb(173, 175, 173);
 }
 
-
-    @media screen and (max-width:510px) {
-    .container{
+@media screen and (max-width:768px) {
+    
+    .calculator{
         display: block;
-        position:absolute;
-        margin: auto;
-        text-align: center;
-        width: 50%;
-        height: 50%;
+        margin-top: 1rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
+        border: 2px solid rgb(85, 234, 11);
+        border-radius: 3rem;
+        background-color: gray;
+        display: inline-block;
+        padding: 2rem 2rem;
+    
+    }
+}
+
+    @media screen and (max-width:155px) {
+  
+        .calculator{
+            display:inline-block;
+             margin: 1rem;
+            border: 2px solid rgb(85, 234, 11);
+            border-radius: 3rem;
+            background-color:orangered
+           
+        
+            
+        
         }
-       
        
     }
    
