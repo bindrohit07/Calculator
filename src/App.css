@@ -32,7 +32,7 @@ button{
     background-color: bisque;
     border-radius: 20px;
     font-size: 2rem;
-    height: 4rem;
+    height: 4.5rem;
     width: 5rem;
     cursor:default;
     
@@ -60,7 +60,7 @@ button{
         margin-left: 5rem;
         border: 2px solid rgb(85, 234, 11);
         border-radius: 3rem;
-        background-color: gray;
+        background-color: rgb(197, 195, 195);
         display: inline-block;
         padding: 2rem 2rem;
     

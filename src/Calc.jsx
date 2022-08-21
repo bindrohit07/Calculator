@@ -1,6 +1,5 @@
 //import React from 'react'
 import React,{useState} from 'react'
-//import './App.css'
 const Calc = () => {
   const [result,setResult]= useState("");
 const handleClick =(e) => {
