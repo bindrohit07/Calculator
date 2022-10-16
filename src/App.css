@@ -53,34 +53,44 @@ button{
 }
 
 @media screen and (max-width:768px) {
-    
+    .container{
+        text-align: center;
+        margin: auto;
+    }
     .calculator{
         display: block;
-        margin: auto;
         border: 2px solid rgb(85, 234, 11);
         border-radius: 3rem;
         background-color: rgb(22, 22, 22);
         display: inline-block;
         padding: 2rem 2rem;
-    
     }
-}
+}  
+
+
+    
 
     @media screen and (max-width:155px) {
-  
-        .calculator{
-            display:inline-block;
-             margin: auto;
-            border: 2px solid rgb(85, 234, 11);
-            border-radius: 3rem;
-            background-color:aqua
-           
-        
-            
-        
+        .container{
+            text-align: center;
+            margin: auto;
         }
+                .calculator{
+                    display:inline-block;
+                    border: 2px solid rgb(85, 234, 11);
+                    border-radius: 3rem;
+                    background-color:aqua
+                   
+                
+                    
+                
+                }
+ }
+
        
-    }
+    /*   margin-top: 1rem;
+        margin-right: 5rem;
+        margin-left: 5rem;*/
 
    
    
