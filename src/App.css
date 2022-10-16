@@ -1,19 +1,20 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+padding: 0;
+box-sizing: border-box;
+
  }
  .container{
     text-align: center;
-    width: 100%;
-
+    margin: auto;
 }
 
 .calculator{
+    
     border: 2px solid rgb(85, 234, 11);
     border-radius: 3rem;
-    background-color: aqua;
-    display: inline-block;
+    background-color: rgb(25, 27, 27);
+    display:inline-block;
     padding: 2rem 2rem;
     
 
@@ -50,7 +51,7 @@ button{
 .hilight{
     background-color: rgb(173, 175, 173);
 }
-
+/*
 @media screen and (max-width:768px) {
     
     .calculator{
@@ -60,7 +61,7 @@ button{
         margin-left: 5rem;
         border: 2px solid rgb(85, 234, 11);
         border-radius: 3rem;
-        background-color: rgb(197, 195, 195);
+        background-color: rgb(22, 22, 22);
         display: inline-block;
         padding: 2rem 2rem;
     
@@ -74,13 +75,14 @@ button{
              margin: 1rem;
             border: 2px solid rgb(85, 234, 11);
             border-radius: 3rem;
-            background-color:orangered
+            background-color:aqua
            
         
             
         
         }
        
-    }
+    }*/
+
    
    
